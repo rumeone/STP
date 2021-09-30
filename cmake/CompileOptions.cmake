@@ -20,4 +20,4 @@ function(set_compile_options target_name)
         CXX_CLANG_TIDY ${CLANG_TIDY_EXE}
     )
   endif()
-endfunction(
+endfunction()
