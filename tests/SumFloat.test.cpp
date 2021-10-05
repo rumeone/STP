@@ -1,4 +1,4 @@
-#include "../_deps/googletest-src/googletest/include/gtest/gtest.h"
+#include "gtest/gtest.h"
 #include "../include/lib/SumFloat.hpp"
 
 TEST(FloatTest, SumFloatTest) {
