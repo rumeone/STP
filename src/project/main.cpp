@@ -1,6 +1,6 @@
 #include <iostream>
 #include "../../include/lib/SumFloat.hpp"
-#include "../../_deps/cli11-src/include/CLI/CLI.hpp"
+#include "CLI/CLI.hpp"
 
 using namespace std;
 
