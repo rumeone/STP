@@ -9,5 +9,5 @@ set_compile_options(${target_name})
 
 include_directories("include/lib/SumFloat.hpp")
 include_directories("_deps/cli11-src/include/CLI/CLI.hpp")
-target_link_libraries(main lib)
+target_link_libraries(main solver)
 target_link_libraries(main CLI11::CLI11)
