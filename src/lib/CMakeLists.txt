@@ -2,11 +2,12 @@ cmake_minimum_required (VERSION 3.0)
 
 project(MyStaticLibrary)
 
+include(CompileOptions)
+
 set(target_name solver)
 
 add_library(solver STATIC)
 
-include(CompileOptions)
 set_compile_options(${target_name})
 
 set(SOURCE_FILES "SumFloat.cpp")

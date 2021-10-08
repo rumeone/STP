@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.0)
 
+include(CompileOptions)
+
 set(target_name test)
 
 add_executable(test SumFloat.test.cpp)
 
-include(CompileOptions)
 set_compile_options(${target_name})
 
 

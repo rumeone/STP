@@ -16,8 +16,7 @@ int main(int argc, char** argv)
 
     CLI11_PARSE(app, argc, argv);
 
-
-	cout << sumFloat(first, second) << endl;
+	cout << math::sumFloat(first, second) << endl;
 
 	return 0;
 

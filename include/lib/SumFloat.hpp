@@ -1,3 +1,7 @@
 #pragma once
 
-float sumFloat(float a, float b);
+namespace math {
+
+	float sumFloat(float a, float b);
+
+}
