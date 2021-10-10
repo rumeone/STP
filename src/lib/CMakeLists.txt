@@ -6,7 +6,7 @@ include(CompileOptions)
 
 set(target_name solver)
 
-add_library(solver STATIC)
+add_library(solver STATIC SumFloat.cpp)
 
 set_compile_options(${target_name})
 

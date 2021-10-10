@@ -1,5 +1,5 @@
-#include "gtest/gtest.h"
-#include "../include/lib/SumFloat.hpp"
+#include <gtest/gtest.h>
+#include <SumFloat.hpp>
 
 TEST(FloatTest, SumFloatTest) {
 	float a = 8.0;
