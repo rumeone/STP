@@ -1,4 +1,4 @@
-#include "../../include/lib/SumFloat.hpp"
+#include <SumFloat.hpp>
 
 namespace math {
 

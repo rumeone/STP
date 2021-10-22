@@ -2,9 +2,9 @@
 #include <SumFloat.hpp>
 
 TEST(FloatTest, SumFloatTest) {
-	float a = 8.0;
-	float b = 5.3;
-	float reuslt = math::sumFloat(a,b);
+	const float a = 8.0;
+	const float b = 5.3;
+	const float result = math::sumFloat(a,b);
 
-	ASSERT_FLOAT_EQ(reuslt, 13.3);
+	ASSERT_FLOAT_EQ(result, 13.3);
 }

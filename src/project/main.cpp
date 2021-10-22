@@ -2,9 +2,7 @@
 #include <SumFloat.hpp>
 #include <CLI/CLI.hpp>
 
-using namespace std;
-
-int main(int argc, char** argv)
+int main(int argc, char* argv[])
 {
     CLI::App app{"Sum two float"};
 
@@ -16,7 +14,7 @@ int main(int argc, char** argv)
 
     CLI11_PARSE(app, argc, argv);
 
-	cout << math::sumFloat(first, second) << endl;
+	std::cout << math::sumFloat(first, second) << '\n';
 
 	return 0;
 
